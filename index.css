@@ -90,6 +90,12 @@ header .navbar{
     align-items: center;
     justify-content: center;
 }
+header input{
+    display: none;
+}
+header label{
+    display: none;
+}
 header .navbar ul{
     display: flex;
     align-items: center;
@@ -1135,3 +1141,177 @@ footer .footer-class .div span:hover{
     font-size: 18px;
     cursor: pointer;
 }
+
+
+/* main footer end */
+
+/* mobile view start */
+
+@media (max-width:768px) {
+    /* header start */
+
+.top .top-icons{
+    width: 20%;
+}
+.top .top-contact{
+    width: 70%;
+}
+.top .top-contact h3{
+    margin-right: 0px;
+}
+/* header end */
+
+/* main header start */
+header{
+    height: 70px;
+    background-color: #4c4c4c;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+header .logo img{
+    margin-left: 10px;
+}
+header .navbar{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header label{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+header label button{
+    cursor: pointer;
+    padding: 8px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #222222;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+header .navbar button i{
+    margin-left: 5px;
+}
+
+header .navbar ul{
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 70px;
+    border-top: 1px solid white;
+    background-color: #4c4c4c;
+    padding: 5px 0px;
+}
+header .navbar ul li i{
+    font-size: 10px;
+    margin-left: 5px;
+}
+header .navbar ul li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    line-height: 25px;
+    margin: 0px 2px;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 10px;
+}
+header .navbar ul li:hover{
+    color: rgba(1,1,1,0.8);
+    transition: 0.2s all ease;
+}
+
+header .navbar ul li .bg{
+    background-color: transparent;
+    height: 80px;
+    width: 120px;
+    left: 80px;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 0;
+    margin: 0;
+}
+header .navbar ul li:hover .bg{
+    display: flex;
+}
+header .navbar ul li .bg li{
+    text-align: left;
+}
+header .navbar ul li .pg{
+    background-color: transparent;
+    height: 70px;
+    width: 120px;
+    left: 70px;
+    top: -15px;
+    padding: 0;
+    border: 1px solid white;
+    display: none;
+    flex-direction: column;
+}
+header .navbar ul li:hover .pg{
+    display: flex;
+}
+header .navbar ul li .pg li{
+    text-align: left;
+    height: fit-content;
+    width: 100px;
+}
+
+.header .appointment{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .appointment h4{
+    height: 45px;
+    width: 210px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #009dff;
+    color: white;
+    font-weight: 500;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-left: 70px;
+}
+header .appointment h4:hover{
+    background-color: white;
+    color: #009dff;
+    border: 1px solid #009dff;
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+
+/* main header end */
+
+
+}
+
+
