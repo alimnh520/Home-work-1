@@ -1168,6 +1168,10 @@ footer .footer-class .div span:hover{
     right: 20%;
     position: absolute;
 }
+    .top .top-icons i{
+    margin: 0px;
+    cursor: pointer;
+}
 .top .top-contact h3{
     margin-right: 0px;
 }
@@ -1187,7 +1191,7 @@ header .logo{
     position: absolute;
 }
 header .logo img{
-    margin-left: 10px;
+    margin-left: 100px;
 }
 
 header .navbar{
