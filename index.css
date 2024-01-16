@@ -69,7 +69,7 @@ header{
     position: sticky;
     top: 0;
     background-color: white;
-    box-shadow: 0px 5px 5px rgb(228, 228, 228);
+    box-shadow: 0px 1px 5px rgb(228, 228, 228);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1200,6 +1200,8 @@ footer .footer-class .div span:hover{
 header{
     height: 70px;
     background-color: #4c4c4c;
+    box-shadow: 0px 1px 5px rgb(112, 110, 110);
+
 }
 header .logo{
     display: flex;
