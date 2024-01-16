@@ -1401,7 +1401,7 @@ header .appointment h4{
 }
 .section-2 .Chamber-text button{
     height: 45px;
-    width: 150px;
+    width: 180px;
 }
 
 /* .section-2 end */
@@ -1468,88 +1468,255 @@ header .appointment h4{
 .section-4{
     height: auto;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 0px;
 }
 .section-4 p{
-    font-size: 17px;
-    font-weight: 500;
     width: 80%;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgba(1,1,1,0.6);
-    margin: 10px 0px;
-    line-height: 27px;
-}
-.section-4 .services{
-    height: auto;
-    width: 85%;
-    margin: 20px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    overflow: hidden;
-}
-.section-4 .services .main-work img{
-    width: 350px;
-}
-.section-4 .services .main-work:hover img{
-    transform: scale(1.2);
-    transition: all 0.3s ease-in-out;
-}
-
-.section-4 .services .main-work{
-    height: 400px;
-    width: 350px;
-    background-color: white;
-    box-shadow: 5px 10px 10px rgb(243, 243, 243);
-    border-radius: 2px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 15px;
-    overflow: hidden;
-}
-.section-4 .services .main-work h2{
-    width: 100%;
-    padding-top: 20px;
-    padding-left: 20px;
-    background-color: white;
-    font-size: 19px;
-    font-weight: 500;
-    z-index: 1;
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
-}
-.section-4 .services .main-work h2:hover{
-    color: #009dff;
-    transition: 0.3s ease all;
-}
-.section-4 .services .main-work p{
-   width: 90%;
-   text-align: left;
-   margin-left: 20px;
-   font-size: 16px;
-   padding: 0;
-}
-.section-4 .services .main-work h4{
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    margin-left: 20px;
-    padding: 0;
-    text-transform: capitalize;
-    color: #009dff;
-    cursor: pointer;
-}
-.section-4 .services .main-work h4:hover{
-    text-decoration: underline #009dff;
 }
 
 /* section-4 end */
 
+
+.section-5{
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+.section-5::before{
+    background-position: -380px 0px;
+}
+.section-5 i{
+    font-size: 40px;
+}
+.section-5 p{
+    font-size: 15px;
+    width: 95%;
+    padding: 0px;
+    line-height: 25px;
+}
+.section-5 h4{
+    padding: 10px 0px;
+}
+.section-5 span{
+    margin-top: 20px;
+}
+
+/* section-5 end */
+
+
+/* section-6 start */
+
+.section-6{
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+.section-6 .qualified{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f5fbff;
+}
+.section-6 .qualified > a{
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+    align-items: normal;
+    justify-content: left;
+    position: relative;
+    left: 5%;
+}
+.section-6 .introduct{
+    height: 500px;
+    width: 90%;
+    margin: 0px auto;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.section-6 .introduct .intro-logo{
+    height: 550px;
+    position: relative;
+    margin: 0;
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-6 .introduct .intro-img{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* section-6 end */
+
+
+
+/* section-7 start */
+
+.section-7{
+    height: 1400px;
+    width: 82%;
+    margin: 50px auto;
+}
+.section-7 .expart-check{
+    height: 100px;
+    width: 100%;
+}
+.section-7 .expart-check h1{
+    font-size: 20px;
+}
+.section-7 .expart-check .check-icons{
+    display: flex;
+}
+.section-7 .expart-check .check-icons > i{
+    height: 30px;
+    width: 30px;
+    margin: 0px 4px;
+}
+.section-7 .expart-doctors{
+    height: 1250px;
+    flex-direction: column;
+    animation: doctors 5s infinite alternate;
+}
+.section-7 .expart-doctors .doctors{
+    height: 320px;
+    width: 255px;
+}
+
+/* section-7 end */
+
+/* section-8 start */
+
+.section-8{
+    height: 360px;
+    flex-direction: column;
+}
+.section-8 .contact{
+    height: 180px;
+    width: 100%;
+    justify-content: space-between;
+}
+.section-8 .contact::before{
+    background-repeat: no-repeat;
+    background-position: -200px 0px;
+}
+.section-8 .contact .text h1{
+    font-size: 17px;
+}
+
+.section-8 .contact button{
+    padding: 0;
+    height: 40px;
+    width: 190px;
+    position: relative;
+    right: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.section-8 .appointment{
+    height: 180px;
+    width: 100%;
+    justify-content: space-between;
+}
+.section-8 .appointment::before{
+    background-position: -150px 0px;
+}
+.section-8 .appointment .text h1{
+    font-size: 17px;
+}
+
+.section-8 .appointment button{
+    padding: 0px;
+    height: 45px;
+    width: 250px;
+    position: relative;
+    right: 5px;
+}
+
+/* section-8 end */
+
+
+/* footer start */
+
+footer{
+    height: 740px;
+    width: 100%;
+    background-color: #1f1f1f;
+}
+footer .footer-class{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-class .div:nth-child(1) .footer-logo img{
+   border-radius: 10px;
+   cursor: pointer;
+   margin-top: 30px;
+}
+footer .footer-class .div:nth-child(1) .footer-logo {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px ;
+}
+ footer .footer-class .div:nth-child(1) .footer-logo h1{
+    margin-top: 30px;
+}
+footer .footer-class .div:nth-child(1) .footer-icons{
+    padding: 15px 0px;
+}
+ footer .footer-class .div > h2{
+    padding:10px 0px ;
+    font-size: 30px;
+}
+footer .footer-class .div p{
+    line-height: 25px;
+    width: fit-content;
+}
+footer .footer-class .div address{
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+/* footer end */
+
+/* main footer start */
+
+.main-footer{
+    width: 100%;
+    height: 55px;
+}
+.main-footer h3{
+    color: rgb(153, 150, 150);
+    font-size: 15px;
+}
+.main-footer h3 span{
+    color: #009dff;
+    font-size: 17px;
+    cursor: pointer;
+}
 
 }
 
