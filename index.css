@@ -1142,7 +1142,6 @@ footer .footer-class .div span:hover{
     cursor: pointer;
 }
 
-
 /* main footer end */
 
 /* mobile view start */
@@ -1151,11 +1150,22 @@ footer .footer-class .div span:hover{
     /* header start */
 
 .top .top-icons{
-    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 15%;
+}
+.top .top-icons i{
+    color: #c8cbcf;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 0px 5px;
+    padding: 0;
+    cursor: pointer;
 }
 .top .top-contact{
     width: 50%;
-    right: 15%;
+    right: 20%;
     position: absolute;
 }
     .top .top-icons i{
