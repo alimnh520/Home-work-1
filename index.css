@@ -1210,7 +1210,7 @@ header .logo{
     position: absolute;
 }
 header .logo img{
-    margin-left: 100px;
+    margin-left:20px;
 }
 
 header .navbar{
@@ -1281,7 +1281,7 @@ header .navbar ul li{
     margin-left: 10px;
 }
 header .navbar ul li:hover{
-    color: rgba(1,1,1,0.8);
+    color: #009dff;
     transition: 0.2s all ease;
 }
 
@@ -1308,7 +1308,7 @@ header .navbar ul li .pg{
     height: 70px;
     width: 120px;
     left: 70px;
-    top: -15px;
+    top: -19px;
     padding: 0;
     border: 1px solid white;
     display: none;
@@ -1324,35 +1324,143 @@ header .navbar ul li .pg li{
 }
 
 .header .appointment{
-    width: 40%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 header .appointment h4{
-    height: 45px;
-    width: 210px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #009dff;
-    color: white;
+    height: 30px;
+    width: 125px;
+    font-size: 12px;
     font-weight: 500;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    margin-left: 70px;
-}
-header .appointment h4:hover{
-    background-color: white;
-    color: #009dff;
-    border: 1px solid #009dff;
-    transition: 0.3s ease all;
-    cursor: pointer;
+    position: relative;
+    right: 50%;
 }
 
 /* main header end */
 
+
+/* section-1 start */
+
+.section-1{
+    height: 380px;
+    background-position: -80px 0px;
+}
+.section-1 .body h1{
+    font-size: 40px;
+    padding: 10px 0px;
+}
+.section-1 .body h2{
+    font-size: 37px;
+}
+.section-1 .body p{
+    width: 80%;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+.section-1 .body button{
+    height: 50px;
+    width: 200px;
+    margin: 10px 0px;
+}
+
+/* section-1 end */
+
+/* section-2 start */
+
+.section-2{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.section-2 .hospitality{
+    width: 82%;
+    height: 300px;
+    justify-content: center;
+}
+.section-2 .hospitality-text button{
+    width: 150px;
+}
+
+.section-2  .Emergency{
+    width: 82%;
+    height: 300px;
+}
+
+.section-2 .Emergency-text button{
+    height: 45px;
+    width: 150px;
+}
+
+.section-2 .Chamber{
+    width: 82%;
+    height: 300px;
+}
+.section-2 .Chamber-text button{
+    height: 45px;
+    width: 150px;
+}
+
+/* .section-2 end */
+
+
+/* section-3 start */
+
+.section-3{
+    height: 910px;
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-3 .images{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 420px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.section-3 .images img{
+    height: 300px;
+    position: absolute;
+    left: 10%;
+    top: 30px;
+}
+.section-3 .images img:nth-child(2){
+    position: relative;
+    left: 35%;
+    top: 100px;
+}
+
+.section-3 .health-care{
+    width: 90%;
+    height: 490px;
+    display: flex;
+    justify-content: flex-start;
+}
+.section-3 .health-care h4{
+    padding: 0px;
+}
+.section-3 .health-care p{
+    padding: 0px 0px 10px 0px;
+    margin: 0;
+}
+.section-3 .health-care .icon-text h3{
+    bottom: 4px;
+    position: relative;
+}
+.section-3 .health-care button{
+    height: 40px;
+    width: 120px;
+   position: relative;
+   top: 20px;
+}
+
+/* section-3 end */
 
 }
 
