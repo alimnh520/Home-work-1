@@ -1168,9 +1168,21 @@ footer .footer-class .div span:hover{
     right: 20%;
     position: absolute;
 }
-
 .top .top-contact h3{
+    color: #4d4d4d;
+    font-size: 14px;
+    font-weight: 600;
     margin-right: 0px;
+    cursor: pointer;
+}
+.top .top-contact h4{
+    color: #4d4d4e;
+    font-size: 15px;
+    font-weight: 600;
+}
+.top .top-contact i{
+    color: #5db2ff;
+    font-size: 19px;
 }
 /* header end */
 
