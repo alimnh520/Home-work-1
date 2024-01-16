@@ -1154,6 +1154,7 @@ footer .footer-class .div span:hover{
     align-items: center;
     justify-content: flex-start;
     width: 15%;
+    left: 5%;
 }
 .top .top-icons i{
     color: #c8cbcf;
@@ -1168,6 +1169,7 @@ footer .footer-class .div span:hover{
     align-items: center;
     justify-content: flex-end;
     width: 70%;
+    right: 5%;
 }
 .top .top-contact h3{
     color: #4d4d4d;
