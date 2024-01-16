@@ -90,17 +90,17 @@ header .navbar{
     align-items: center;
     justify-content: center;
 }
-header input{
-    display: none;
-}
-header label{
-    display: none;
-}
 header .navbar ul{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 30px;
+}
+header .navbar input{
+    display: none;
+}
+header .navbar label{
+    display: none;
 }
 header .navbar ul li i{
     font-size: 10px;
@@ -1151,10 +1151,12 @@ footer .footer-class .div span:hover{
     /* header start */
 
 .top .top-icons{
-    width: 20%;
+    width: 30%;
 }
 .top .top-contact{
-    width: 70%;
+    width: 50%;
+    right: 15%;
+    position: absolute;
 }
 .top .top-contact h3{
     margin-right: 0px;
@@ -1171,24 +1173,27 @@ header .logo{
     align-items: center;
     justify-content: center;
     width: 50%;
+    left: 8%;
+    position: absolute;
 }
 header .logo img{
     margin-left: 10px;
 }
+
 header .navbar{
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-header label{
+header .navbar label{
     display: flex;
     position: absolute;
     right: 10px;
     align-items: center;
     justify-content: center;
 }
-header label button{
+header .navbar label{
     cursor: pointer;
     padding: 8px 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -1201,8 +1206,12 @@ header label button{
     border: none;
     border-radius: 4px;
 }
-header .navbar button i{
+header .navbar i{
     margin-left: 5px;
+}
+
+header .navbar #menu:checked ~ ul{
+    display: flex;
 }
 
 header .navbar ul{
