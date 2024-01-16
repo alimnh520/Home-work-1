@@ -1159,30 +1159,36 @@ footer .footer-class .div span:hover{
     color: #c8cbcf;
     font-size: 14px;
     font-weight: 100;
-    margin: 0px 5px;
+    margin: 0px 2px;
     padding: 0;
     cursor: pointer;
 }
 .top .top-contact{
-    width: 50%;
-    right: 10%;
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
 }
 .top .top-contact h3{
     color: #4d4d4d;
-    font-size: 14px;
-    font-weight: 500;
-    margin-right: 0px;
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 2px;
+    padding: 0;
     cursor: pointer;
 }
 .top .top-contact h4{
     color: #4d4d4e;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
 }
 .top .top-contact i{
     color: #5db2ff;
     font-size: 16px;
+    margin: 0px 5px;
+    padding: 0;
 }
 /* header end */
 
@@ -1196,7 +1202,7 @@ header .logo{
     align-items: center;
     justify-content: center;
     width: 50%;
-    left: 8%;
+    left: 5%;
     position: absolute;
 }
 header .logo img{
