@@ -13,6 +13,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    animation: top 2s linear;
+    position: relative;
+}
+@keyframes top {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0%;
+    }
 }
 .top .top-icons{
     display: flex;
@@ -66,7 +76,7 @@
 header{
     height: 83px;
     width: 100%;
-    position: sticky;
+    position: relative;
     top: 0;
     background-color: white;
     box-shadow: 0px 1px 5px rgb(228, 228, 228);
@@ -74,7 +84,18 @@ header{
     align-items: center;
     justify-content: center;
     z-index: 2;
+    animation: header 2s linear;
 }
+@keyframes header {
+    0%{
+        right: -100%;
+    }
+    100%{
+        right: 0%;
+    }
+}
+
+
 header .logo{
     display: flex;
     align-items: center;
@@ -198,6 +219,16 @@ header .appointment h4:hover{
     background-image: url('Img/doctor1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    animation: sec1 1s linear;
+    position: relative;
+}
+@keyframes sec1 {
+    0%{
+        top: -100vw;
+    }
+    100%{
+        top: 0vw;
+    }
 }
 .section-1 .body{
     height: 100%;
@@ -264,6 +295,16 @@ header .appointment h4:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    animation: sec2 1s linear;
+}
+@keyframes sec2 {
+    0%{
+        top:-2000px;
+    }
+    100%{
+        top: 0px;
+    }
 }
 .section-2 .hospitality{
     width: 35%;
@@ -645,7 +686,9 @@ header .appointment h4:hover{
     background-color: rgb(10, 10, 10);
     margin: 0;
     padding: 0;
+    position: relative;
 }
+
 .section-5::before{
     background-image: url('Img/x1.png.pagespeed.ic.NH__KL9wkr.webp');
     background-size: cover;
