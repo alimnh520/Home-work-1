@@ -1210,7 +1210,8 @@ header .logo{
     position: absolute;
 }
 header .logo img{
-    margin-left:20px;
+    margin-left:40px;
+    width: 110px;
 }
 
 header .navbar{
@@ -1409,7 +1410,7 @@ header .appointment h4{
 /* section-3 start */
 
 .section-3{
-    height: 910px;
+    height: 930px;
     width: 90%;
     justify-content: center;
     flex-direction: column;
@@ -1425,20 +1426,20 @@ header .appointment h4{
     position: relative;
 }
 .section-3 .images img{
-    height: 300px;
+    height: 250px;
     position: absolute;
-    left: 10%;
+    left: 5%;
     top: 30px;
 }
 .section-3 .images img:nth-child(2){
     position: relative;
-    left: 35%;
+    left: 30%;
     top: 100px;
 }
 
 .section-3 .health-care{
     width: 90%;
-    height: 490px;
+    height: 570px;
     display: flex;
     justify-content: flex-start;
 }
@@ -1461,6 +1462,94 @@ header .appointment h4{
 }
 
 /* section-3 end */
+
+/* section-4 start */
+
+.section-4{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px;
+}
+.section-4 p{
+    font-size: 17px;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(1,1,1,0.6);
+    margin: 10px 0px;
+    line-height: 27px;
+}
+.section-4 .services{
+    height: auto;
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.section-4 .services .main-work img{
+    width: 350px;
+}
+.section-4 .services .main-work:hover img{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.section-4 .services .main-work{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 5px 10px 10px rgb(243, 243, 243);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15px;
+    overflow: hidden;
+}
+.section-4 .services .main-work h2{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: white;
+    font-size: 19px;
+    font-weight: 500;
+    z-index: 1;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.section-4 .services .main-work h2:hover{
+    color: #009dff;
+    transition: 0.3s ease all;
+}
+.section-4 .services .main-work p{
+   width: 90%;
+   text-align: left;
+   margin-left: 20px;
+   font-size: 16px;
+   padding: 0;
+}
+.section-4 .services .main-work h4{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-left: 20px;
+    padding: 0;
+    text-transform: capitalize;
+    color: #009dff;
+    cursor: pointer;
+}
+.section-4 .services .main-work h4:hover{
+    text-decoration: underline #009dff;
+}
+
+/* section-4 end */
+
 
 }
 
